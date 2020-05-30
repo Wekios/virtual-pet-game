@@ -1,0 +1,8 @@
+{
+  "name": "virtual-pet-game",
+  "version": "1.0.0",
+  "description": "a digital pet game",
+  "main": "src/index.html",
+  "author": "Wekios",
+  "license": "ISC"
+}
