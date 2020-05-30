@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "a digital pet game",
   "main": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
   "author": "Wekios",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
