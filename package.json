@@ -1,23 +1,19 @@
 {
-  "name": "virtual-pet-game",
-  "version": "1.0.0",
-  "description": "a digital pet game",
-  "main": "src/index.html",
-  "scripts": {
-    "dev": "parcel src/index.html",
-    "test": "jest"
-  },
+  "name": "virtual-pet",
   "author": "Wekios",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.20.2",
-    "jest": "^26.0.1",
-    "parcel-bundler": "^1.12.4",
-    "prettier": "^2.0.5"
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "browserslist": [
-    "last 2 Firefox versions"
-  ]
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.2"
+  }
 }
